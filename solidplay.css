@@ -1,0 +1,50 @@
+*{margin:0;padding:0;}
+body{
+  border: 1px solid white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/22.png)  center no-repeat;
+  background-size: content; 
+}
+.window{
+  width: 788px;
+  height: 400px;
+  overflow: hidden;
+}
+.imges{
+  display: flex;
+  align-items: flex-start;
+}
+.imges>img{
+  margin-right: 80px;
+}
+.wrapper>.btns{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: black;
+}
+.wrapper>.btns>span{
+  width: 60px;
+  height: 46px;
+  margin: 10px;
+  border: 2px solid #1e7da3;
+}
+.wrapper>.btns>span:nth-child(1){
+   background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/pc1.jpg) center center no-repeat;
+   background-size: cover;
+}
+.wrapper>.btns>span:nth-child(2){
+   background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/ph1.jpg) center center no-repeat; 
+  background-size: cover;
+}
+.wrapper>.btns>span:nth-child(3){
+  background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/tv.jpg) center center no-repeat;
+   background-size: cover;
+}
+.wrapper>.btns>span:nth-child(4){
+  background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/m1.jpeg) center center no-repeat;
+   background-size: cover;
+} 
