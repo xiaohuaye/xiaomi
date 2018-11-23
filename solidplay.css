@@ -1,21 +1,23 @@
 *{margin:0;padding:0;}
 body{
-  border: 1px solid white;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background:  url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/22.png)  center no-repeat;
-  background-size: content; 
+  background-size: cover; 
 }
 .window{
-  width: 788px;
+  width: 780px;
   height: 400px;
   overflow: hidden;
+  box-shadow: 1px 1px 1px 0px #131313;
+  border-radius: 2px;
 }
 .imges{
   display: flex;
   align-items: flex-start;
+  transition: all 0.5s;
 }
 .imges>img{
   margin-right: 80px;
@@ -25,16 +27,28 @@ body{
   justify-content: center;
   margin-top: 30px;
   background-color: black;
+  box-shadow: 1px 1px 1px 0px #1e7da3;
 }
 .wrapper>.btns>span{
   width: 60px;
   height: 46px;
   margin: 10px;
-  border: 2px solid #1e7da3;
+  border: 4px solid transparent;
 }
+.square{
+  content:"";
+  display: inline;
+  border: 5px solid  transparent;
+  border-top: 8px solid  #1e7da3;
+  position: relative;
+  right: -24px;
+  top: 8px;
+}
+
 .wrapper>.btns>span:nth-child(1){
    background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/pc1.jpg) center center no-repeat;
    background-size: cover;
+   border: 4px solid #1e7da3;
 }
 .wrapper>.btns>span:nth-child(2){
    background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/ph1.jpg) center center no-repeat; 
