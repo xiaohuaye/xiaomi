@@ -62,3 +62,6 @@ body{
   background: url(https://github-1257772833.cos.ap-chengdu.myqcloud.com/m1.jpeg) center center no-repeat;
    background-size: cover;
 } 
+.mask{
+  box-shadow: 1px 1px 1px 1px rgb(5,69,95);
+}
